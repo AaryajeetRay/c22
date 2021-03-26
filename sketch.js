@@ -28,9 +28,9 @@ function draw() {
   background("lightblue");
   Engine.update(engine)
   rectMode(CENTER)
-  fill("orange")
+  fill("blue")
   rect(ground.position.x,ground.position.y,400,20)
-  fill("lightgreen")
+  fill("red")
   ellipseMode(RADIUS)
   ellipse(ball.position.x,ball.position.y,20,20)
  
